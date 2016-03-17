@@ -5,7 +5,7 @@
   "bin": {
     "wiredep": "./wiredep-cli.js"
   },
-  "description": "Wire CLI interface.",
+  "description": "Wiredep CLI interface.",
   "repository": "taptapship/wiredep-cli",
   "author": "Eddie Monge",
   "keywords": [
