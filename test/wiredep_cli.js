@@ -68,8 +68,9 @@ describe('wiredep-cli', function () {
     });
 
     it('should display help when called with no args or help ones', function () {
+      var desc = require('../package.json').description;
       [[], ['-h'], ['--help']].forEach(function (arg) {
-        runLog(arg, /^Wire Bower dependencies to your source code/, 'info');
+        runLog(arg, desc, 'info');
       });
     });
 

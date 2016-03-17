@@ -2,7 +2,7 @@
 'use strict';
 
 var pkg = require('./package.json');
-var wiredep = require('./wiredep');
+var wiredep = require('wiredep');
 var argv = require('minimist')(process.argv.slice(2));
 var chalk = require('chalk');
 var path = require('path');
